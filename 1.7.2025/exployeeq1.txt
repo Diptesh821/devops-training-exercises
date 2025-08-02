@@ -1,0 +1,8 @@
+name age department
+satya 20 physics
+Diptesh 18 engish
+shandad 19 sciencen
+John 25 cn
+Hari 30 hindi
+H 5 dos
+

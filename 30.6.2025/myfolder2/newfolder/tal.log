@@ -1,0 +1,15 @@
+tal Dell (c) 2015
+Find boot disk /dev/nvme0n1p1
+Found PEBOOT option as 0004
+Linux boot is set as boot option 0000
+Find LinuxIns in boot list
+efibootmgr -o 0004,0000,0005
+Set WinPE to boot at next reboot successfully
+tal Dell (c) 2015
+Find boot disk /dev/nvme0n1p1
+Putting /tmp/fist.log on MFGMEDIA
+Copied /tmp/fist.log to MFGMEDIA successfully
+tal Dell (c) 2015
+Find boot disk /dev/nvme0n1p1
+Putting /target/var/log/installer/dmesg.log on MFGMEDIA
+Copied /target/var/log/installer/dmesg.log to MFGMEDIA successfully

@@ -1,0 +1,29 @@
+# -----------------------------------------------------------------------------
+# .gitignore for Diptesh Singh's DevOps Projects
+# This file is placed in the root directory to manage ignore rules for the
+# entire repository, including all 'terraform-folder' subdirectories.
+# -----------------------------------------------------------------------------
+
+# Terraform Files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+/Project/
+
+# Credentials and Access Keys
+*access-keys.csv
+*credentials.csv
+piku_accessKeys.csv
+piku_credentials.csv
+Diptesh_accessKeys.csv
+Diptesh_credentials.csv
+
+shared_notes_sk/
+test/
+MasterBook-Reference.pdf
+Assignments/
+DevOps-Lesson-Plan-2025.pdf
+question easy.pdf
+getting-started-app/

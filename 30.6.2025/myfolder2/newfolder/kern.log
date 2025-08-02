@@ -1,0 +1,86 @@
+Jun 30 10:35:02 iteradmin-OptiPlex-3080 kernel: [ 5332.333133] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 10:35:05 iteradmin-OptiPlex-3080 kernel: [ 5336.123831] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 10:35:59 iteradmin-OptiPlex-3080 kernel: [ 5389.968975] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 10:36:08 iteradmin-OptiPlex-3080 kernel: [ 5399.032614] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 10:36:09 iteradmin-OptiPlex-3080 kernel: [ 5400.079622] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 10:36:14 iteradmin-OptiPlex-3080 kernel: [ 5404.322198] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 10:36:28 iteradmin-OptiPlex-3080 kernel: [ 5418.335220] kauditd_printk_skb: 43 callbacks suppressed
+Jun 30 10:36:28 iteradmin-OptiPlex-3080 kernel: [ 5418.335223] audit: type=1400 audit(1751259988.200:55): apparmor="DENIED" operation="open" profile="/usr/sbin/cups-browsed" name="/usr/share/cups/locale/" pid=5045 comm="cups-browsed" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Jun 30 10:36:28 iteradmin-OptiPlex-3080 kernel: [ 5418.335230] audit: type=1400 audit(1751259988.200:56): apparmor="DENIED" operation="open" profile="/usr/sbin/cups-browsed" name="/usr/share/locale/" pid=5045 comm="cups-browsed" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Jun 30 10:38:08 iteradmin-OptiPlex-3080 kernel: [ 5518.383894] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 10:38:16 iteradmin-OptiPlex-3080 kernel: [ 5526.779478] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 10:38:18 iteradmin-OptiPlex-3080 kernel: [ 5528.259377] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 10:38:22 iteradmin-OptiPlex-3080 kernel: [ 5532.443386] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 11:19:39 iteradmin-OptiPlex-3080 kernel: [ 8009.316320] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 11:19:39 iteradmin-OptiPlex-3080 kernel: [ 8009.532461] PM: suspend entry (deep)
+Jun 30 11:19:39 iteradmin-OptiPlex-3080 kernel: [ 8009.538828] Filesystems sync: 0.006 seconds
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.539954] Freezing user space processes ... (elapsed 0.005 seconds) done.
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.545309] OOM killer disabled.
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.545311] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.547018] printk: Suspending console(s) (use no_console_suspend to debug)
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.548519] serial 00:02: disabled
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.781186] ACPI: Preparing to enter system sleep state S3
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.782717] PM: Saving platform NVS memory
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.782743] Disabling non-boot CPUs ...
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.783747] IRQ 155: no longer affine to CPU1
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.786054] smpboot: CPU 1 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.787473] IRQ 149: no longer affine to CPU2
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.788520] smpboot: CPU 2 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.790566] IRQ 145: no longer affine to CPU3
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.791618] smpboot: CPU 3 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.793641] IRQ 147: no longer affine to CPU4
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.794686] smpboot: CPU 4 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.796672] IRQ 153: no longer affine to CPU5
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.797723] smpboot: CPU 5 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.799742] IRQ 126: no longer affine to CPU6
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.799751] IRQ 143: no longer affine to CPU6
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.802060] smpboot: CPU 6 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.803180] IRQ 124: no longer affine to CPU7
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.803192] IRQ 154: no longer affine to CPU7
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.803197] IRQ 156: no longer affine to CPU7
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.804245] smpboot: CPU 7 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.806513] smpboot: CPU 8 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.808834] smpboot: CPU 9 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.811107] smpboot: CPU 10 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.813161] smpboot: CPU 11 is now offline
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.816535] ACPI: Low-level resume complete
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.816595] PM: Restoring platform NVS memory
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.817240] Enabling non-boot CPUs ...
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.817280] x86: Booting SMP configuration:
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.817281] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.818373] CPU1 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.818396] smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.819134] CPU2 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.819152] smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.819906] CPU3 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.819925] smpboot: Booting Node 0 Processor 4 APIC 0x8
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.820685] CPU4 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.820703] smpboot: Booting Node 0 Processor 5 APIC 0xa
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.821470] CPU5 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.821488] smpboot: Booting Node 0 Processor 6 APIC 0x1
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.822426] CPU6 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.822449] smpboot: Booting Node 0 Processor 7 APIC 0x3
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.823218] CPU7 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.823234] smpboot: Booting Node 0 Processor 8 APIC 0x5
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.824035] CPU8 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.824055] smpboot: Booting Node 0 Processor 9 APIC 0x7
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.824853] CPU9 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.824872] smpboot: Booting Node 0 Processor 10 APIC 0x9
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.825683] CPU10 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.825699] smpboot: Booting Node 0 Processor 11 APIC 0xb
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.826521] CPU11 is up
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.829873] ACPI: Waking up from system sleep state S3
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.883886] serial 00:02: activated
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.962451] acpi LNXPOWER:01: Turning OFF
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.962872] acpi LNXPOWER:00: Turning OFF
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.963120] OOM killer enabled.
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.963121] Restarting tasks ... done.
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.969790] thermal thermal_zone2: failed to read out thermal zone (-61)
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.969796] video LNXVIDEO:00: Restoring backlight state
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8009.969813] PM: suspend exit
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8010.120427] nvme nvme0: 12/0/0 default/read/poll queues
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8010.194239] ata1: SATA link down (SStatus 4 SControl 300)
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8010.194944] Generic FE-GE Realtek PHY r8169-0-200:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-0-200:00, irq=IGNORE)
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 kernel: [ 8010.300473] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun 30 11:34:40 iteradmin-OptiPlex-3080 kernel: [ 8013.792965] r8169 0000:02:00.0 enp2s0: Link is Up - 1Gbps/Full - flow control off
+Jun 30 11:34:40 iteradmin-OptiPlex-3080 kernel: [ 8013.792987] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready

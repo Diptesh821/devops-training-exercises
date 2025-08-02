@@ -1,0 +1,4 @@
+DipteshSingh 20 15000 physics
+ChandranGouda 35 11000 chemistry
+HariSahu 40 3000 maths
+DevMishra 32 20000 physics

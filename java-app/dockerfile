@@ -1,0 +1,5 @@
+FROM openjdk:17
+COPY . /tmp
+WORKDIR /tmp
+RUN javac Hello.java
+CMD ["java","Hello"]

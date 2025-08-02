@@ -1,0 +1,10 @@
+/usr/share/ubuntu/scripts/locale/ubuntukylin-hook:
++ CLIENT_TYPE=consumer
++ LANGUAGE=en_IN
++ ENCODING=UTF-8
++ TIMEZONE=Asia/Kolkata
++ KYLIN_LIST_FILE=/etc/apt/sources.list.d/ubuntukylin.list
++ PACKAGES_LIST=/usr/lib/ubiquity/plugins/region_packages.list
++ [ -f /etc/apt/sources.list.d/ubuntukylin.list ]
++ [ en_IN != zh_CN ]
++ exit 0

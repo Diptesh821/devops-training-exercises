@@ -1,0 +1,59 @@
+Jun 30 09:17:01 iteradmin-OptiPlex-3080 CRON[5607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 09:17:01 iteradmin-OptiPlex-3080 CRON[5607]: pam_unix(cron:session): session closed for user root
+Jun 30 09:44:31 iteradmin-OptiPlex-3080 sudo: iteradmin : TTY=pts/0 ; PWD=/home/iteradmin/Desktop/2241019485 ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Jun 30 09:44:31 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 09:44:44 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 10:00:44 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:auth): conversation failed
+Jun 30 10:00:44 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:auth): auth could not identify password for [iteradmin]
+Jun 30 10:00:49 iteradmin-OptiPlex-3080 polkitd(authority=local): Registered Authentication Agent for unix-process:7530:327958 (system bus name :1.176 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jun 30 10:00:55 iteradmin-OptiPlex-3080 polkitd(authority=local): Operator of unix-session:9 successfully authenticated as unix-user:iteradmin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.177 [systemctl start nginx] (owned by unix-user:iteradmin)
+Jun 30 10:00:55 iteradmin-OptiPlex-3080 polkitd(authority=local): Unregistered Authentication Agent for unix-process:7530:327958 (system bus name :1.176, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Jun 30 10:01:16 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1001 euid=0 tty=/dev/pts/0 ruser=iteradmin rhost=  user=iteradmin
+Jun 30 10:01:23 iteradmin-OptiPlex-3080 sudo: iteradmin : TTY=pts/0 ; PWD=/home/iteradmin/Desktop/2241019485 ; USER=root ; COMMAND=/bin/systemctl start nginx
+Jun 30 10:01:23 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 10:01:23 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 10:01:44 iteradmin-OptiPlex-3080 sudo: iteradmin : TTY=pts/0 ; PWD=/home/iteradmin/Desktop/2241019485 ; USER=root ; COMMAND=/bin/systemctl start apache2
+Jun 30 10:01:44 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 10:01:44 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 10:17:01 iteradmin-OptiPlex-3080 CRON[8258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 10:17:01 iteradmin-OptiPlex-3080 CRON[8258]: pam_unix(cron:session): session closed for user root
+Jun 30 10:17:31 iteradmin-OptiPlex-3080 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty3 ruser= rhost=  user=iteradmin
+Jun 30 10:17:37 iteradmin-OptiPlex-3080 gdm-password]: gkr-pam: unlocked login keyring
+Jun 30 10:18:48 iteradmin-OptiPlex-3080 sudo: iteradmin : TTY=pts/0 ; PWD=/home/iteradmin/Desktop/2241019485 ; USER=root ; COMMAND=/usr/bin/test 1001
+Jun 30 10:18:48 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 10:18:48 iteradmin-OptiPlex-3080 sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 10:36:31 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 10:36:31 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 10:36:31 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 10:36:36 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 10:36:36 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 10:36:36 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 10:38:32 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 10:38:32 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 10:38:32 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 10:38:37 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 10:38:37 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 10:38:37 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 10:47:33 iteradmin-OptiPlex-3080 gnome-keyring-daemon[3568]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jun 30 11:17:01 iteradmin-OptiPlex-3080 CRON[13615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 11:17:01 iteradmin-OptiPlex-3080 CRON[13615]: pam_unix(cron:session): session closed for user root
+Jun 30 11:34:37 iteradmin-OptiPlex-3080 systemd-logind[1227]: Operation 'sleep' finished.
+Jun 30 11:34:46 iteradmin-OptiPlex-3080 gdm-password]: gkr-pam: unlocked login keyring
+Jun 30 11:34:52 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 11:34:52 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 11:34:52 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 11:34:53 iteradmin-OptiPlex-3080 sshd[1351]: Received SIGHUP; restarting.
+Jun 30 11:34:53 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on 0.0.0.0 port 22.
+Jun 30 11:34:53 iteradmin-OptiPlex-3080 sshd[1351]: Server listening on :: port 22.
+Jun 30 12:07:54 iteradmin-OptiPlex-3080 polkitd(authority=local): Registered Authentication Agent for unix-process:15888:1090495 (system bus name :1.253 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jun 30 12:08:02 iteradmin-OptiPlex-3080 polkit-agent-helper-1[15895]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1001 euid=0 tty= ruser=iteradmin rhost=  user=iteradmin
+Jun 30 12:08:10 iteradmin-OptiPlex-3080 polkitd(authority=local): Operator of unix-session:9 successfully authenticated as unix-user:iteradmin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.254 [systemctl start nginx] (owned by unix-user:iteradmin)
+Jun 30 12:08:10 iteradmin-OptiPlex-3080 polkitd(authority=local): Unregistered Authentication Agent for unix-process:15888:1090495 (system bus name :1.253, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Jun 30 12:10:09 iteradmin-OptiPlex-3080 polkitd(authority=local): Registered Authentication Agent for unix-process:16002:1103956 (system bus name :1.258 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jun 30 12:10:14 iteradmin-OptiPlex-3080 polkitd(authority=local): Operator of unix-session:9 successfully authenticated as unix-user:iteradmin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.259 [systemctl stop nginx] (owned by unix-user:iteradmin)
+Jun 30 12:10:14 iteradmin-OptiPlex-3080 polkitd(authority=local): Unregistered Authentication Agent for unix-process:16002:1103956 (system bus name :1.258, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Jun 30 12:17:01 iteradmin-OptiPlex-3080 CRON[16283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 12:17:01 iteradmin-OptiPlex-3080 CRON[16283]: pam_unix(cron:session): session closed for user root
+Jun 30 12:28:30 iteradmin-OptiPlex-3080 polkitd(authority=local): Registered Authentication Agent for unix-process:17034:1213989 (system bus name :1.281 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jun 30 12:28:34 iteradmin-OptiPlex-3080 polkitd(authority=local): Operator of unix-session:9 successfully authenticated as unix-user:iteradmin to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.282 [systemctl start nginx] (owned by unix-user:iteradmin)
+Jun 30 12:28:34 iteradmin-OptiPlex-3080 polkitd(authority=local): Unregistered Authentication Agent for unix-process:17034:1213989 (system bus name :1.281, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)

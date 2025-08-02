@@ -1,0 +1,13 @@
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::699475915684:user/piku"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::diptesh1508/*"
+    }
+  ]
+}
+

@@ -1,0 +1,64 @@
+{
+  "widgets": [
+    {
+      "height": 3,
+      "width": 8,
+      "x": 0,
+      "y": 0,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-NetworkIn-${instance_id}"]
+      }
+    },
+    {
+      "height": 3,
+      "width": 8,
+      "x": 8,
+      "y": 0,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-NetworkOut-${instance_id}"]
+      }
+    },
+    {
+      "height": 3,
+      "width": 8,
+      "x": 16,
+      "y": 0,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-DiskReadBytes-${instance_id}"]
+      }
+    },
+    {
+      "height": 3,
+      "width": 8,
+      "x": 0,
+      "y": 3,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-DiskWriteBytes-${instance_id}"]
+      }
+    },
+    {
+      "height": 3,
+      "width": 8,
+      "x": 8,
+      "y": 3,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-StatusCheckFailed_Instance-${instance_id}"]
+      }
+    },
+    {
+      "height": 3,
+      "width": 8,
+      "x": 16,
+      "y": 3,
+      "type": "alarm",
+      "properties": {
+        "alarms": ["alarm-CPUUtilization-${instance_id}"]
+      }
+    }
+  ]
+}
